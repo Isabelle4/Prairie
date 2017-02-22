@@ -1,0 +1,88 @@
+/*pour augmenter de la même valeur la taille il faut modifier L - l + radius*/
+#soleil{
+width: 150px;
+height: 150px;
+background: yellow;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+border-radius: 100px;
+margin-left: 100px;
+margin-top: 40px;
+}
+
+/*MAISON*/
+#bodymaison{
+width: 300px;
+height: 360px;
+background: #FE2E2E;
+margin-top: none;
+margin-left: 600px;
+display: flex; /*pour déplacer les fenêtres*/
+flex-wrap: wrap;
+justify-content: space-around; /*pour aligner les fenêtres*/
+padding-top: 40px; /*espace entre les fenêtres*/
+}
+
+.fenetre{
+width: 60px;
+height: 60px;
+background: #FACC2E;
+margin-top: 40px;
+}
+
+#porte{
+  width: 60px;
+  height: 120px;
+  background-color: black;
+  margin-top: 40px;
+  margin-bottom: none;
+}
+
+/*TOITURE*/
+#container{
+  width: 300px;
+  height: 120px;
+  justify-content: center;
+  margin-left: 600px;
+}
+#toiture5{
+ width: 100%;
+ height: 20%;
+ background-color: #B40404;
+ justify-content: center;
+}
+#toiture4{
+  width: 80%;
+  height: 20%;
+  background-color: #B40404;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+#toiture3{
+  width: 60%;
+  height: 20%;
+  background-color: #B40404;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#toiture2{
+  width: 40%;
+  height: 20%;
+  background-color: #B40404;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+#toiture1{
+  width: 20%;
+  height: 20%;
+  background-color: #B40404;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+/*PELOUSE*/
+#line{
+  height: 10px;
+  width: auto;
+  background-color: green;
+}
